@@ -2,16 +2,16 @@
 dependencies: []
 
 galaxy_info:
-  role_name: ludus_badblood
-  author: "@curi0usJack"
-  description: An Ansible Role that runs BadBlood on your Ludus lab DC. 
-  company: TrustedSec
+  role_name: ludus_badblood_tiny
+  author: "@randy-halim"
+  description: An Ansible Role that runs BadBlood on your Ludus lab DC, but adjusted
+  company: fcrh
   license: GPLv3
   min_ansible_version: "2.10"
   platforms:
     # Modify the platforms here as required
     # This example includes a lot, see https://github.com/ansible/ansible-lint/blob/main/src/ansiblelint/schemas/meta.json for all possibilities
-    - name: Windows 
+    - name: Windows
       versions:
         - "2012R2"
         - "2016"
