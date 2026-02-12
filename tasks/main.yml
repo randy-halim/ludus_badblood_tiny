@@ -1,4 +1,9 @@
 ---
+- name: Create C:\ludus\badblood_tiny
+  ansible.windows.win_file:
+    path: C:\ludus\badblood_tiny
+    state: directory
+
 - name: Download BadBlood from GitHub
   ansible.windows.win_get_url:
     url: https://github.com/davidprowe/BadBlood/archive/refs/heads/master.zip
